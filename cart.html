@@ -1,165 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cara</title>
+    <link rel="icon" type="image/x-icon" href="/img/icon1.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Cara</title>
-        <link rel="icon" type="image/x-icon" href="/img/icon1.png">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-        <link rel="stylesheet" href="style.css">
-    </head>
+  <body>
+    <section id="header">
+      <a href="#"
+        ><img
+          src="img/2.png"
+          style="width: 150px; height: 120px"
+          class="logo"
+          alt=""
+      /></a>
 
-    <body>
-        <section id="header">
-            <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Acceuil</a></li>
+          <li><a href="shop.html">Catalogue</a></li>
+          <!-- <li><a href="blog.html">Blog</a></li> -->
+          <li><a href="about.html">Qui sommes-nous?</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li id="lg-bag">
+            <a class="active" href="cart.html"
+              ><i class="bx bx-shopping-bag"></i
+            ></a>
+          </li>
+          <a href="#" id="close"><i class="bx bx-x"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="bx bx-shopping-bag"></i></a>
+        <i id="bar" class="bx bx-menu"></i>
+      </div>
+    </section>
 
-            <div>
-                <ul id="navbar">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li id="lg-bag"><a class="active" href="cart.html"><i class='bx bx-shopping-bag' ></i></a></li>
-                    <a href="#" id="close"><i class='bx bx-x'></i></a>
-                </ul>
-            </div>
-            <div id="mobile">
-                <a href="cart.html"><i class='bx bx-shopping-bag' ></i></a>
-                <i id="bar" class='bx bx-menu'></i>
-            </div>
-        </section>
+    <section id="page-header" class="about-header">
+      <h2>#MonPanier</h2>
+      <p>Envoyer nous votre commande nous nous occupons du reste!</p>
+    </section>
 
-        <section id="page-header" class="about-header">
-            <h2>#let's_talk</h2>
-            <p>LEAVE A MESSAGE, We love to hear from you!</p>
-        </section>
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Supprimer</td>
+            <td>Image</td>
+            <td>Produit</td>
+            <td>Prix</td>
+            <td>Quantité</td>
+            <td>Sous-total</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><i class="bx bx-x-circle"></i></td>
+            <td><img src="./img/products/f1.jpg" alt="" /></td>
+            <td>Astronaut T-Shirts</td>
+            <td>3697FDJ</td>
+            <td><input type="number" value="1" /></td>
+            <td>3697FDJ</td>
+          </tr>
+          <tr>
+            <td><i class="bx bx-x-circle"></i></td>
+            <td><img src="./img/products/f2.jpg" alt="" /></td>
+            <td>Astronaut T-Shirts</td>
+            <td>3697FDJ</td>
+            <td><input type="number" value="1" /></td>
+            <td>3697FDJ</td>
+          </tr>
+          <tr>
+            <td><i class="bx bx-x-circle"></i></td>
+            <td><img src="./img/products/f3.jpg" alt="" /></td>
+            <td>Astronaut T-Shirts</td>
+            <td>3697FDJ</td>
+            <td><input type="number" value="1" /></td>
+            <td>3697FDJ</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
 
-        <section id="cart" class="section-p1">
-            <table width="100%">
-                <thead>
-                    <tr>
-                        <td>Remove</td>
-                        <td>Image</td>
-                        <td>Product</td>
-                        <td>Price</td>
-                        <td>Quantity</td>
-                        <td>Subtotal</td>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><i class='bx bx-x-circle'></i></td>
-                        <td><img src="./img/products/f1.jpg" alt=""></td>
-                        <td>Cartoon Astronaut T-Shirts</td>
-                        <td>₹2499</td>
-                        <td><input type="number" value="1"></td>
-                        <td>₹2499</td>
-                    </tr>
-                    <tr>
-                        <td><i class='bx bx-x-circle'></i></td>
-                        <td><img src="./img/products/f2.jpg" alt=""></td>
-                        <td>Cartoon Astronaut T-Shirts</td>
-                        <td>₹2499</td>
-                        <td><input type="number" value="1"></td>
-                        <td>₹2499</td>
-                    </tr>
-                    <tr>
-                        <td><i class='bx bx-x-circle'></i></td>
-                        <td><img src="./img/products/f3.jpg" alt=""></td>
-                        <td>Cartoon Astronaut T-Shirts</td>
-                        <td>₹2499</td>
-                        <td><input type="number" value="1"></td>
-                        <td>₹2499</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+    <section id="cart-add" class="section-p1">
+      <div id="coupon">
+        <h3>Appliquer Coupon</h3>
+        <div>
+          <input type="text" placeholder="Enter Your Coupon" />
+          <button class="normal">Appliquer</button>
+        </div>
+      </div>
 
-        <section id="cart-add" class="section-p1">
-            <div id="coupon">
-                <h3>Apply Coupon</h3>
-                <div>
-                    <input type="text" placeholder="Enter Your Coupon">
-                    <button class="normal">Apply</button>
-                </div>
-            </div>
+      <div id="subtotal">
+        <h3>Total du panier</h3>
+        <tableau>
+          <tr>
+            <td>Sous-total du panier</td>
+            <td>6895FDj</td>
+          </tr>
+          <tr>
+            <td>Expédition</td>
+            <td>Gratuit</td>
+          </tr>
+          <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>6895FDj</strong></td>
+          </tr>
+        </table>
+        <br>
+        <br>
+        <button class="normal">Passer Commande</button>
+      </div>
+    </section>
 
-            <div id="subtotal">
-                <h3>Cart Total</h3>
-                <table>
-                    <tr>
-                        <td>Cart Subtotal</td>
-                        <td>₹7399</td>
-                    </tr>
-                    <tr>
-                        <td>Shipping</td>
-                        <td>Free</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Total</strong></td>
-                        <td><strong>₹7399</strong></td>
-                    </tr>
-                </table>
-                <button class="normal">Proceed to checkout</button>
-            </div>
-        </section>
+    <footer class="section-p1">
+      <div class="col">
+        <!-- <img class="logo" src="./img/logo.png" alt="" /> -->
+        <h4>Contact</h4>
+        <p><strong>Adresse:</strong> Cité hodan 1 Balbala, 99399, Djibouti</p>
+        <p>
+          <strong>Téléphone:</strong> +33 07 66 04 80 81/ +253 77 38 91 62/ +221
+          77 219 82 61
+        </p>
+        <p><strong>Heure:</strong>8:00 à 22:00, Tout les jours</p>
+        <div class="follow">
+          <h4>Suivez-nous sur :</h4>
+          <div class="icon">
+            <i class="bx bxl-facebook"></i>
+            <i class="bx bxl-twitter"></i>
+            <i class="bx bxl-instagram"></i>
+            <i class="bx bxl-pinterest-alt"></i>
+            <i class="bx bxl-youtube"></i>
+          </div>
+        </div>
+      </div>
 
-        <footer class="section-p1">
-            <div class="col">
-                <img class="logo" src="./img/logo.png" alt="">
-                <h4>Contact</h4>
-                <p><strong>Address:</strong> 562 Wellington Road, Street 32, San Francisco</p>
-                <p><strong>Phone:</strong> +01 2222 345 / (+91) 0 123 456 789</p>
-                <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
-                <div class="follow">
-                    <h4>Follow us</h4>
-                    <div class="icon">
-                        <i class='bx bxl-facebook'></i>
-                        <i class='bx bxl-twitter' ></i>
-                        <i class='bx bxl-instagram' ></i>
-                        <i class='bx bxl-pinterest-alt' ></i>
-                        <i class='bx bxl-youtube' ></i>
-                    </div>
-                </div>
-            </div>
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">À propos de nous</a>
+        <a href="#">Informations de livraison</a>
+        <a href="#">politique de confidentialité</a>
+        <a href="#">termes et conditions</a>
+        <a href="#">Contactez-nous</a>
+      </div>
 
-            <div class="col">
-                <h4>About</h4>
-                <a href="#">About us</a>
-                <a href="#">Devlivery Information</a>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Terms & Conditions</a>
-                <a href="#">Contact Us</a>
-            </div>
+      <div class="col">
+        <h4>Mon compte</h4>
+        <a href="#">Se connecter</a>
+        <a href="#">Voir le panier</a>
+        <!-- <a href="#">Mon Panier</a> -->
+        <a href="#">Suivre ma commande</a>
+        <a href="#">Aide</a>
+      </div>
 
-            <div class="col">
-                <h4>My Account</h4>
-                <a href="#">Sign In</a>
-                <a href="#">View Cart</a>
-                <a href="#">My Wishlist</a>
-                <a href="#">Track My Order</a>
-                <a href="#">Help</a>
-            </div>
+      <div class="col install">
+        <h4>Installer l'application</h4>
+        <p>App Store ou Google Play</p>
+        <div class="row">
+          <img src="./img/pay/app.jpg" alt="" />
+          <img src="./img/pay/play.jpg" alt="" />
+        </div>
+        <p>paiement sécurisées</p>
+        <img src="./img/pay/pay.png" alt="" />
+      </div>
 
-            <div class="col install">
-                <h4>Install App</h4>
-                <p>From App Store or Google Play</p>
-                <div class="row">
-                    <img src="./img/pay/app.jpg" alt="">
-                    <img src="./img/pay/play.jpg" alt="">
-                </div>
-                <p>Secured Payment Gateways</p>
-                <img src="./img/pay/pay.png" alt="">
-            </div>
+      <div class="copyright">
+        <p>© 2023, AURA - Web Site</p>
+      </div>
+    </footer>
 
-            <div class="copyright">
-                <p>© 2023, Sahad cmd - HTML CSS Ecommerce Template</p>
-            </div>
-        </footer>
-
-        <script src="script.js"></script>
-    </body>
+    <script src="script.js"></script>
+  </body>
 </html>
